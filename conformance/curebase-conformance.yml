@@ -1,0 +1,24 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.curebase.ai/ (footer compliance badges)
+notes: >-
+  Curebase publishes its compliance posture as badges in the site footer. No dedicated
+  trust-center or /security page exists (those paths return the HTML SPA fallback). No
+  public OpenAPI is available to derive cross-cutting API standards conformance, so only
+  the provider's published organizational compliance certifications are asserted here.
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: '"SOC 2 Type II Certified" badge published in site footer'
+- id: gdpr
+  conforms: true
+  evidence: '"GDPR Compliant" badge published in site footer'
+- id: eu-us-data-privacy-framework
+  conforms: true
+  evidence: '"Data Privacy Framework" badge published in site footer'
+compliance_program:
+  published: true
+  certifications:
+  - SOC 2 Type II
+  - GDPR
+  - EU-U.S. Data Privacy Framework

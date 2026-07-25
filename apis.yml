@@ -1,8 +1,28 @@
 aid: curebase
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/curebase.png
 name: Curebase
-description: 'Curebase is a company surfaced as a portfolio company of ggv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: health. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Curebase is a San Francisco-based clinical trials technology company (founded 2017)
+  that provides a modern, AI-native eClinical platform for sponsors, CROs, biotechs, MedTech
+  companies, and research sites. The platform unifies the full trial lifecycle in one system:
+  ePRO/eCOA (electronic patient-reported and clinical outcome assessments), eConsent (digital
+  informed consent), EDC (electronic data capture), patient recruitment and screening, participant
+  engagement and retention tooling, and site management. Curebase also ships Sitebase, a free
+  eClinical suite for research sites, and Hope, a conversational AI voice agent. It supports
+  decentralized and hybrid trial models natively. Curebase is a private, venture-backed company
+  (Series B led by Industry Ventures; investors include GGV Capital, Acrew, Gilead, and others).
+  It is SOC 2 Type II certified and GDPR compliant. Curebase does not publish a public developer
+  API or API documentation; integration is handled through enterprise engagements.'
 url: https://raw.githubusercontent.com/api-evangelist/curebase/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Health
+- Clinical Trials
+- eClinical
+- Life Sciences
+- Healthcare
+- Decentralized Clinical Trials
+- Electronic Data Capture
+- Patient Engagement
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +51,31 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.curebase.com/
+  url: https://www.curebase.ai/
+- type: About
+  url: https://www.curebase.ai/about
+- type: Blog
+  url: https://www.curebase.ai/news
+- type: Support
+  url: https://www.curebase.ai/contact
+- type: SignUp
+  url: https://www.curebase.ai/schedule-a-demo
+- type: TermsOfService
+  url: https://www.curebase.ai/terms
+- type: PrivacyPolicy
+  url: https://www.curebase.ai/privacy-policy
+- type: Conformance
+  url: conformance/curebase-conformance.yml
+- type: Compliance
+  url: conformance/curebase-conformance.yml
+- type: LLMsTxt
+  url: llms/curebase-llms.txt
+- type: WellKnown
+  url: well-known/curebase-well-known.yml
+- type: DomainSecurity
+  url: security/curebase-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

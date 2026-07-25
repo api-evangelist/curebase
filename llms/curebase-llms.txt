@@ -1,0 +1,102 @@
+# Curebase
+
+> Curebase is a clinical trials technology company that provides a structured eClinical platform for sponsors, CROs, biotechs, MedTech companies, and research sites. Curebase helps trial teams launch faster, capture higher-quality data, and improve participant engagement across the full trial lifecycle.
+
+## Products
+
+### Curebase eClinical Platform
+
+A paid, end-to-end eClinical platform for sponsors and CROs covering the full trial lifecycle. Key capabilities include:
+
+- ePRO/eCOA: Electronic patient-reported outcomes and clinical outcome assessments
+
+- eConsent: Digital informed consent for participants
+
+- EDC: Electronic data capture
+
+- Recruitment: Patient recruitment and screening tools
+
+- Participant engagement: Tools to improve retention and communication
+
+- Site management: Tools to support and manage research sites
+
+- AI capabilities: Intelligent automation and data insights across the platform
+
+### Sitebase
+
+A free eClinical suite built specifically for research sites. Sitebase gives sites access to core eClinical tools at no cost, reducing the administrative burden on site staff and improving data quality at the point of collection.
+
+## Who We Serve
+
+- **Emerging Biotech**: Early-stage companies running their first or second trial who need a flexible, easy-to-deploy platform without enterprise complexity
+
+- **Pharma**: Large pharmaceutical companies that need a reliable, validated eClinical stack that integrates with existing systems
+
+- **MedTech**: Medical device companies navigating unique regulatory and data collection requirements
+
+- **CROs**: Contract research organizations that need a platform flexible enough to support multiple sponsors and study types simultaneously
+
+- **Research Sites**: Investigators and site coordinators who need simple, intuitive tools that reduce admin work and let them focus on patients
+
+## Key Differentiators
+
+- Structured platform: Curebase replaces fragmented point solutions by covering the full eClinical stack in one system
+
+- Speed: Trial teams launch faster with Curebase due to streamlined site activation, faster eConsent, and integrated recruitment
+
+- Data quality: Integrated data capture across ePRO, EDC, and site tools reduces transcription errors and improves data integrity
+
+- Site experience: Curebase is designed to reduce burden on sites, improving site satisfaction and data quality simultaneously
+
+- Participant experience: Built-in engagement and communication tools improve retention and reduce dropout rates
+
+- Decentralized and hybrid trial support: Curebase supports remote and hybrid trial models natively
+
+## Glossary
+
+- **eClinical platform**: Software used to manage the operational and data aspects of a clinical trial
+
+- **ePRO**: Electronic patient-reported outcomes — data reported directly by trial participants via app or web
+
+- **eCOA**: Electronic clinical outcome assessments — a broader category that includes ePRO plus clinician and observer assessments
+
+- **eConsent**: Electronic informed consent — a digital process for obtaining and documenting participant consent
+
+- **EDC**: Electronic data capture — software used to collect and manage clinical trial data
+
+- **CRO**: Contract research organization — a company hired by a sponsor to manage some or all aspects of a clinical trial
+
+- **DCT**: Decentralized clinical trial — a trial model that allows participants to take part remotely, reducing the need for site visits
+
+- **Site**: A research site or clinical site — a hospital, clinic, or other facility where trial participants are seen and data is collected
+
+- **Sponsor**: The company or organization responsible for initiating and funding a clinical trial, typically a pharma, biotech, or MedTech company
+
+- **Database lock**: The point in a clinical trial when all data has been collected, cleaned, and verified, and the database is closed to further changes
+
+## Pages
+
+- Homepage: https://curebase.ai
+- ePRO/eCOA: https://curebase.ai/epro
+- eConsent: https://curebase.ai/econsent
+- EDC: https://curebase.ai/edc
+- Recruitment: https://curebase.ai/clinical-trial-patient-recruitment
+- Patient Engagement: https://curebase.ai/patient-engagement
+- AI: https://curebase.ai/ai
+- Solutions for Emerging Biotech: https://curebase.ai/solutions/eclinical-platform-for-emerging-biotech
+- Solutions for Pharma: https://curebase.ai/solutions/eclinical-platform-for-pharma
+- Solutions for MedTech: https://curebase.ai/solutions/eclinical-platform-for-medtech
+- Solutions for CROs: https://curebase.ai/solutions/eclinical-platform-for-cros
+- Solutions for Sites: https://curebase.ai/solutions/eclinical-platform-for-sites
+- Case Studies: https://curebase.ai/case-studies
+- Resources: https://curebase.ai/resources
+- About: https://curebase.ai/about
+- Schedule a Demo: https://curebase.ai/schedule-a-demo
+- Contact: https://curebase.ai/contact
+
+## Company
+
+- Website: https://curebase.ai
+- Founded: 2017
+- Headquarters: San Francisco, CA
+- Industry: Clinical trial technology, eClinical software, life sciences technology

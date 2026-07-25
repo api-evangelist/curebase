@@ -1,0 +1,39 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of https://www.curebase.ai/.well-known/*
+host: https://www.curebase.ai
+notes: >-
+  Curebase runs a marketing site (Webflow-style) that returns HTTP 200 with an HTML
+  SPA fallback for unknown paths, so a 200 alone does not prove a document exists. Each
+  path below was verified by content-type/body. A real, first-party llms.txt was found
+  and saved verbatim to llms/curebase-llms.txt.
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  present: false
+  note: returns the HTML homepage (SPA fallback), not an RFC 9116 security.txt
+- path: /.well-known/openid-configuration
+  status: 200
+  present: false
+  note: HTML SPA fallback (text/html), not an OIDC discovery document
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  present: false
+  note: HTML SPA fallback (text/html), not an RFC 8414 document
+- path: /.well-known/api-catalog
+  status: 200
+  present: false
+  note: HTML SPA fallback (text/html), not an api-catalog
+- path: /.well-known/ai-plugin.json
+  status: 200
+  present: false
+  note: HTML SPA fallback (text/html), not an ai-plugin manifest
+- path: /llms.txt
+  status: 200
+  present: true
+  content_type: text/plain
+  file: ../llms/curebase-llms.txt
+- path: /robots.txt
+  status: 200
+  present: true
+  content_type: text/plain
